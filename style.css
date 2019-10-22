@@ -27,6 +27,7 @@ body{
 
   body{
       background-color: purple;
+      color: yellow;
       margin: 0;
   }
 
@@ -45,11 +46,17 @@ body{
       body{
           background-color: green;
       }
+      .pixels-text{
+        color: pink;
+    }
   }
 
   @media only screen and (max-width:1200px){
     body{
         background-color: brown;
+    }
+    .pixels-text{
+        color: skyblue;
     }
   }
 
